@@ -1,0 +1,179 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://culturedigitalskills.org/presentation/testcompressed/U-103-9-B.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Manifest for image U-103-9-B Design Council Photographic Library."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "Design Council Archive, University of Brighton Design Archives"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Prediction 1"
+        ]
+      },
+      "value": {
+        "en": [
+          "furniture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Confidence Prediction 1"
+        ]
+      },
+      "value": {
+        "en": [
+          "0.9"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Prediction 2"
+        ]
+      },
+      "value": {
+        "en": [
+          "furniture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Confidence Prediction 2"
+        ]
+      },
+      "value": {
+        "en": [
+          "0.9"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Prediction 3"
+        ]
+      },
+      "value": {
+        "en": [
+          "furniture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Confidence Prediction 3"
+        ]
+      },
+      "value": {
+        "en": [
+          "0.9"
+        ]
+      }
+    }
+  ],
+  "navDate": "2024-05-19T00:00:00+00:00",
+  "thumbnail": [
+    {
+      "id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed%2FU-103-9-B/full/77,100/0/default.jpg",
+      "type": "Image",
+      "service": [
+        {
+          "id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed%2FU-103-9-B",
+          "type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://culturedigitalskills.org/presentation/testcompressed/U-103-9-B",
+      "type": "Canvas",
+      "height": 4837,
+      "width": 6745,
+      "items": [
+        {
+          "id": "https://culturedigitalskills.org/presentation/testcompressed/U-103-9-B/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://culturedigitalskills.org/presentation/testcompressed/U-103-9-B/1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed/U-103-9-B/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4837,
+                "width": 6745,
+                "service": [
+                  {
+                    "@id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed/U-103-9-B",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "width": 6745,
+                    "height": 4837,
+                    "sizes": [
+                      {
+                        "width": 6745,
+                        "height": 4837
+                      },
+                      {
+                        "width": 3372,
+                        "height": 2418
+                      },
+                      {
+                        "width": 1686,
+                        "height": 1209
+                      },
+                      {
+                        "width": 843,
+                        "height": 604
+                      },
+                      {
+                        "width": 421,
+                        "height": 302
+                      },
+                      {
+                        "width": 210,
+                        "height": 151
+                      },
+                      {
+                        "width": 105,
+                        "height": 75
+                      }
+                    ]
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://culturedigitalskills.org/presentation/testcompressed/U-103-9-B"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

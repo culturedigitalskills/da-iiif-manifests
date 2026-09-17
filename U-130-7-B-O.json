@@ -1,0 +1,179 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://culturedigitalskills.org/presentation/testcompressed/U-130-7-B-O.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Manifest for image U-130-7-B-O Design Council Photographic Library."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "Design Council Archive, University of Brighton Design Archives"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Prediction 1"
+        ]
+      },
+      "value": {
+        "en": [
+          "furniture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Confidence Prediction 1"
+        ]
+      },
+      "value": {
+        "en": [
+          "0.9"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Prediction 2"
+        ]
+      },
+      "value": {
+        "en": [
+          "furniture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Confidence Prediction 2"
+        ]
+      },
+      "value": {
+        "en": [
+          "0.9"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Prediction 3"
+        ]
+      },
+      "value": {
+        "en": [
+          "furniture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Confidence Prediction 3"
+        ]
+      },
+      "value": {
+        "en": [
+          "0.9"
+        ]
+      }
+    }
+  ],
+  "navDate": "2024-05-19T00:00:00+00:00",
+  "thumbnail": [
+    {
+      "id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed%2FU-130-7-B-O/full/77,100/0/default.jpg",
+      "type": "Image",
+      "service": [
+        {
+          "id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed%2FU-130-7-B-O",
+          "type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://culturedigitalskills.org/presentation/testcompressed/U-130-7-B-O",
+      "type": "Canvas",
+      "height": 7550,
+      "width": 5317,
+      "items": [
+        {
+          "id": "https://culturedigitalskills.org/presentation/testcompressed/U-130-7-B-O/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://culturedigitalskills.org/presentation/testcompressed/U-130-7-B-O/1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed/U-130-7-B-O/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 7550,
+                "width": 5317,
+                "service": [
+                  {
+                    "@id": "https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/designarchives/testcompressed/U-130-7-B-O",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "width": 5317,
+                    "height": 7550,
+                    "sizes": [
+                      {
+                        "width": 5317,
+                        "height": 7550
+                      },
+                      {
+                        "width": 2658,
+                        "height": 3775
+                      },
+                      {
+                        "width": 1329,
+                        "height": 1887
+                      },
+                      {
+                        "width": 664,
+                        "height": 943
+                      },
+                      {
+                        "width": 332,
+                        "height": 471
+                      },
+                      {
+                        "width": 166,
+                        "height": 235
+                      },
+                      {
+                        "width": 83,
+                        "height": 117
+                      }
+                    ]
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://culturedigitalskills.org/presentation/testcompressed/U-130-7-B-O"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
